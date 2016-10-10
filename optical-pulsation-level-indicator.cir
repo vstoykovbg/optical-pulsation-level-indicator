@@ -1,0 +1,43 @@
+* /home/valentin/lab-electronics/optical-pulsation-level-indicator/optical-pulsation-level-indicator.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Wed 23 Mar 2016 12:59:43 AM EET
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+D1  Net-_D1-Pad1_ Net-_D1-Pad2_ Photodiode		
+P2  +9V GND 9V Battery Connector		
+U1  /+4.5V /+4.5V Net-_C1-Pad1_ +9V Net-_D1-Pad2_ Net-_D1-Pad1_ Net-_C2-Pad2_ Net-_D2-Pad1_ Net-_D2-Pad2_ Net-_C2-Pad1_ GND Net-_C5-Pad1_ Net-_R12-Pad2_ Net-_R12-Pad2_ LM324N		
+R4  Net-_C2-Pad2_ Net-_D1-Pad1_ 100k		
+D3  Net-_C5-Pad1_ Net-_D2-Pad1_ 1N4148		
+R8  Net-_R7-Pad2_ Net-_R8-Pad2_ 10k		
+R9  Net-_R8-Pad2_ Net-_R10-Pad1_ 10k		
+R10  Net-_R10-Pad1_ Net-_R10-Pad2_ 1k		
+R11  Net-_R10-Pad2_ /+4.5V 1k		
+R14  Net-_D5-Pad1_ Net-_R14-Pad2_ 100		
+D5  Net-_D5-Pad1_ +3V LED		
+R15  Net-_D6-Pad1_ Net-_R15-Pad2_ 100		
+D6  Net-_D6-Pad1_ +3V LED		
+R16  Net-_D7-Pad1_ Net-_R16-Pad2_ 100		
+D7  Net-_D7-Pad1_ +3V LED		
+P1  +3V GND 3V Battery Connector		
+C3  +9V GND 470u		
+C4  +9V GND 100n		
+U2  Net-_R14-Pad2_ Net-_R13-Pad2_ +9V Net-_R12-Pad2_ Net-_R7-Pad2_ Net-_R12-Pad2_ Net-_R8-Pad2_ Net-_R12-Pad2_ Net-_R10-Pad2_ Net-_R12-Pad2_ Net-_R10-Pad1_ GND Net-_R15-Pad2_ Net-_R16-Pad2_ LM339		
+R2  +9V Net-_C1-Pad1_ 470k		
+R3  Net-_C1-Pad1_ GND 470k		
+C1  Net-_C1-Pad1_ GND 100n		
+R1  /+4.5V Net-_D1-Pad2_ 100k		
+C2  Net-_C2-Pad1_ Net-_C2-Pad2_ 100n		
+R5  /+4.5V Net-_C2-Pad1_ 470k		
+D2  Net-_D2-Pad1_ Net-_D2-Pad2_ 1N4148		
+R6  Net-_R12-Pad2_ Net-_D2-Pad2_ 100k		
+C5  Net-_C5-Pad1_ GND 100n		
+R13  Net-_D4-Pad1_ Net-_R13-Pad2_ 100		
+D4  Net-_D4-Pad1_ +3V LED		
+R7  +9V Net-_R7-Pad2_ 16k		
+P3  Net-_P3-Pad1_ /+4.5V Voltmeter or ampermetter		
+R12  Net-_P3-Pad1_ Net-_R12-Pad2_ 10k		
+
+.end

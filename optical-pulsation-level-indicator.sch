@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:optical-pulsation-level-indicator-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -243,7 +244,7 @@ F 3 "" H 8600 3700 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-optical-pulsation-level-indicator D5
 U 1 1 56ECD7FB
 P 9100 3700
 F 0 "D5" H 9100 3800 50  0000 C CNN
@@ -276,7 +277,7 @@ F 3 "" H 8600 4750 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED D6
+L LED-RESCUE-optical-pulsation-level-indicator D6
 U 1 1 56ECE70C
 P 9100 4750
 F 0 "D6" H 9100 4850 50  0000 C CNN
@@ -298,7 +299,7 @@ F 3 "" H 8600 5800 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED D7
+L LED-RESCUE-optical-pulsation-level-indicator D7
 U 1 1 56ECE80F
 P 9100 5800
 F 0 "D7" H 9100 5900 50  0000 C CNN
@@ -859,7 +860,7 @@ F 3 "" H 8600 2650 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-optical-pulsation-level-indicator D4
 U 1 1 56F07BBE
 P 9100 2650
 F 0 "D4" H 9100 2750 50  0000 C CNN
